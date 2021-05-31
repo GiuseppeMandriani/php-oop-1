@@ -23,22 +23,25 @@
         <h1>DB OOP</h1>
     </header>
 
-    <main>
-        <section>
+    <main class="container">
+        <section class="jumbo">
             <?php // Movie List 
             foreach ($movies as $movie) {
                 // Creo Istanze
                 $film = new Movie($movie['title'], $movie['genre'], $movie['review'] = 'nd', $movie['date_of_release'], $movie['director'], $movie['language'], $movie['summary']); ?>
-                <article>
-                    <img src="<?php echo $movie['url']; ?>" alt="">
-                    <h2><?php echo $film->title; ?></h2>
-                    <p><?php echo $film->genre; ?></p>
-                    <p><?php echo $film->review; ?></p>
-                    <p><?php echo $film->date_of_release; ?></p>
-                    <p><?php echo $film->director; ?></p>
-                    <p><?php echo $film->language; ?></p>
-                    <p><?php echo $film->getExcepert().'...'; ?></p>
-                </article>
+
+                <div class="card">
+                    <article class="">
+                        <h2 class="title"><?php echo $film->title; ?></h2>
+                        <img src="<?php echo $movie['url']; ?>" alt="">
+                        <p><?php echo $film->genre; ?></p>
+                        <p><?php echo $film->review; ?></p>
+                        <p><?php echo $film->date_of_release; ?></p>
+                        <p><?php echo $film->director; ?></p>
+                        <p><?php echo $film->language; ?></p>
+                        <p><?php echo $film->getExcepert().'...'; ?></p>
+                    </article>
+                </div>
 
             <?php } ?>
         </section>

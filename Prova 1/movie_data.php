@@ -7,7 +7,7 @@ $movies = [
         'date_of_release' => 2021,
         'director' => 'Craig Gillepsie',
         'language' => 'EN',
-        'url' => 'https://picsum.photos/200',
+        'url' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-hmRtQ3fmvdW2pLqfjdVVv1vQxVa9GQSylFpRHOyWjB27cPii',
         // 'review' => '',
 
         'summary' => 'Crudelia, il film diretto da Craig Gillespie, vede protagonista Emma Stone nei panni di una giovane Crudelia De Mon. L\'origin story, in live action, racconta la nascita e la trasformazione dell\'iconico e malvagio personaggio de La carica dei 101. <br><br>
@@ -22,7 +22,7 @@ $movies = [
         'date_of_release' => 2019,
         'director' => 'Guy Ritchie',
         'language' => 'EN',
-        'url' => 'https://picsum.photos/200',
+        'url' => 'https://pad.mymovies.it/filmclub/2017/11/159/locandina.jpg',
 
         'review' => '',
         'summary' => 'Aladdin è un ragazzo poverissimo che campa di espedienti nella città di Agrabah. Durante un furtarello incontra la principessa Jasmine, cui è stato proibito di uscire dal palazzo reale: ma Jasmine vuole conoscere la sua città, e va in giro spacciandosi per la sua ancella Dalia. <br><br>
@@ -35,11 +35,12 @@ $movies = [
         'date_of_release' => 2011,
         'director' => 'Kenneth Branagh',
         'language' => 'EN',
-        'url' => 'https://picsum.photos/200',
+        'url' => 'https://pad.mymovies.it/filmclub/2009/01/003/locandina.jpg',
 
         // 'review' => 5,
 
         'summary' => "Dopo che le sue azioni sconsiderate hanno riacceso un'antica guerra, il dio nordico Thor viene spogliato dei propri poteri, scacciato dal regno di Asgard, e costretto a vivere tra gli umani.",
+        'review' => '5',
     ],
 ];
 

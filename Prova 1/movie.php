@@ -15,7 +15,6 @@ class Movie{
     public $date_of_release;
     public $director;
     public $language;
-    // public $review = 'nd';
     public $summary;
 
     // Constructor
@@ -53,7 +52,7 @@ class Movie{
 }
 
 // Istanza Primo Film
-// $film_1 = new Movie('Crudelia','Fantasy');
+//$film_1 = new Movie('Crudelia','Fantasy');
 // // $film_1->title = 'Crudelia';
 // // $film_1->genre = 'Fantasy';
 // $film_1->setDateOfRelease(2021);
