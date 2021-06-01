@@ -9,6 +9,9 @@
 body {
     font-family: 'Montserrat',
         sans-serif;
+    color: #fff;
+    background-color: #032541;
+
 
 }
 
@@ -21,11 +24,12 @@ body {
 /* HEADER */
 
 header {
-    background-color: rgb(104, 141, 104);
+    background-color: #114977;
     height: 80px;
     display: flex;
     align-items: center;
     padding-left: 10px;
+    color: #8ef1c3;
 
 }
 
@@ -34,7 +38,10 @@ header {
 
 
 .title {
-    color: red;
+    color: #8ef1c3;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
 
 }
 
@@ -46,10 +53,17 @@ header {
 
 .card {
     padding: 10px;
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 3 - 20px);
+    margin: 0 10px;
+    text-align: center;
 
 }
 
 article img {
     width: 150px;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin: 10px 0;
 }
